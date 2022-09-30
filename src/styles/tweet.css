@@ -1,0 +1,144 @@
+.tweet {
+  width: 100%;
+  background-color: black;
+  margin-top: 24px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+.tweet-info {
+  display: flex;
+  gap: 12px;
+}
+
+.tweet-info h3 {
+  margin: 0px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.035em;
+  color: #000000;
+}
+
+.tweet-info span {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.035em;
+  color: #bdbdbd;
+}
+
+.tweet-author-profile {
+  height: 42px;
+  width: 42px;
+  border-radius: 8px;
+}
+
+.tweet p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+.tweet-image {
+  width: 100%;
+  min-height: 300px;
+  max-width: 700px;
+  /* min-height: 270px; */
+  /* max-height: 500px; */
+  border-radius: 8px;
+}
+.tweet-stats {
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  gap: 16px;
+  justify-content: end;
+}
+.tweet-stats span {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.035em;
+  color: #bdbdbd;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.tweet-actions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 4px 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.tweet-action {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  cursor: pointer;
+  padding: 12px 40px;
+}
+.tweet-action:hover {
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+
+.tweet-your-reply {
+  display: flex;
+  gap: 16px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.tweet-reply-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+}
+.tweet-your-reply form {
+  width: 100%;
+}
+.tweet-your-reply input {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  color: #bdbdbd;
+  outline: none;
+  padding: 10px 12px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+}
+.liked {
+  color: var(--liked);
+}
+.retweeted {
+  color: var(--retweeted);
+}
+.saved {
+  color: var(--saved);
+}
